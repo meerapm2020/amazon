@@ -99,3 +99,44 @@ nav-second{
     font-size: 0.85rem;
     font-weight:700;
 }
+
+/**panel**/
+.panel{
+    height:40px;
+    background-color: #232f3d;
+    display:flex;
+    color:white;
+    align-items: center; 
+}
+
+.panel-ops p{
+    display:inline;
+    margin-left:20px;
+}
+.panel.ops{
+    width:70%;
+    font-size: 0.9rem;
+}
+
+/**hero section**/
+.hero-section{
+    background-image: url('hero_image.jpg');
+    height:350px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color:black;
+  width:80%;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:25px;
+}
+.hero-msg a{
+    color:rgb(41, 41, 109);
+}
